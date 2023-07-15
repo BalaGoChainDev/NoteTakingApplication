@@ -40,7 +40,7 @@ The following are the API endpoints provided by the Note Taking Application Back
 }
 ```
 
-**Request Payload**:
+**Response**:
 - 200 OK on success
 - 400 Bad Request if the request format is invalid
 
@@ -56,7 +56,7 @@ The following are the API endpoints provided by the Note Taking Application Back
 }
 ```
 
-**Request Payload**:
+**Response**:
 - 200 OK with the session ID (sid) on successful login
 - 400 Bad Request if the request format is invalid
 - 401 Unauthorized if the username and password don't match
@@ -72,7 +72,7 @@ The following are the API endpoints provided by the Note Taking Application Back
 }
 ```
 
-**Request Payload**:
+**Response**:
 - 200 OK with the list of notes on success
 - 400 Bad Request if the request format is invalid
 - 401 Unauthorized if the session ID is invalid
@@ -89,7 +89,7 @@ The following are the API endpoints provided by the Note Taking Application Back
 }
 ```
 
-**Request Payload**:
+**Response**:
 - 200 OK with the ID (id) of the newly created note
 - 400 Bad Request if the request format is invalid
 - 401 Unauthorized if the session ID is invalid
@@ -106,7 +106,7 @@ The following are the API endpoints provided by the Note Taking Application Back
 }
 ```
 
-**Request Payload**:
+**Response**:
 - 200 OK on success
 - 400 Bad Request if the request format is invalid
 - 401 Unauthorized if the session ID is invalid
